@@ -1,0 +1,30 @@
+{
+    "success": true,
+    "api_result": {
+        "status": 0,
+        "message": "In Progress"
+    },
+    "restart_test": false,
+    "ignition_tests": {
+        "TEST_1": {
+            "name": "Battery Connected and Ignition Off",
+            "key": "battery_on_ignition_off",
+            "status": 0,
+            "message": "awaiting result"
+        },
+        "TEST_2": {
+            "name": "Battery Connected and Ignition On",
+            "key": "battery_on_ignition_on",
+            "status": 0,
+            "message": "awaiting result"
+        },
+        "TEST_3": {
+            "name": "Battery Connected and Ignition Off ",
+            "key": "battery_on_ignition_off",
+            "status": 0,
+            "message": "awaiting result"
+        }
+    },
+    "time_to_call_api": 30,
+    "next_test": "TEST_1"
+}
